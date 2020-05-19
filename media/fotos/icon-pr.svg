@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.5, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 200.8 193.9" style="enable-background:new 0 0 200.8 193.9;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;}
+	.st2{stroke:#999999;stroke-width:1.0429;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#999999;stroke-width:1.0429;stroke-miterlimit:10;}
+	.st4{fill:none;}
+	.st5{font-family:'MyriadPro-Regular';}
+	.st6{font-size:100px;}
+</style>
+<g class="st0">
+	<g class="st1">
+		<circle class="st2" cx="99.8" cy="98.5" r="92.4"/>
+		<path class="st2" d="M165.7,176.4H33.8c-6.9,0-12.5-5.6-12.5-12.5V32c0-6.9,5.6-12.5,12.5-12.5h131.9c6.9,0,12.5,5.6,12.5,12.5
+			v131.9C178.3,170.8,172.6,176.4,165.7,176.4z"/>
+		<path class="st2" d="M154.3,190.9H45.6c-6.9,0-12.5-5.6-12.5-12.5V18.6C33,11.7,38.7,6,45.6,6h108.7c6.9,0,12.5,5.6,12.5,12.5
+			v159.8C166.8,185.3,161.2,190.9,154.3,190.9z"/>
+		<path class="st2" d="M179.7,165.2H19.9c-6.9,0-12.5-5.6-12.5-12.5V44c0-6.9,5.6-12.5,12.5-12.5h159.8c6.9,0,12.5,5.6,12.5,12.5
+			v108.7C192.2,159.6,186.6,165.2,179.7,165.2z"/>
+		<circle class="st2" cx="99.9" cy="98" r="41.1"/>
+		<rect x="0.2" y="-1.9" class="st2" width="199.7" height="200.8"/>
+		<line class="st3" x1="0.2" y1="-1.9" x2="199.9" y2="198.9"/>
+		<line class="st3" x1="0.2" y1="198.9" x2="199.9" y2="-1.9"/>
+		<line class="st3" x1="70.8" y1="-1.9" x2="70.6" y2="198.9"/>
+		<line class="st3" x1="100.2" y1="-1.9" x2="99.9" y2="198.9"/>
+		<line class="st3" x1="129.3" y1="-1.9" x2="129.1" y2="198.9"/>
+		<line class="st3" x1="0.2" y1="69" x2="199.9" y2="68.5"/>
+		<line class="st3" x1="0.2" y1="98.2" x2="199.9" y2="97.7"/>
+		<line class="st3" x1="-0.1" y1="128.1" x2="199.6" y2="127.5"/>
+	</g>
+</g>
+<g>
+	<g>
+		<g>
+			<path d="M171.8,185h-142c-9.4,0-17-7.6-17-17V26c0-9.4,7.6-17,17-17h142c9.4,0,17,7.6,17,17v142C188.8,177.4,181.1,185,171.8,185
+				z M29.8,19c-3.9,0-7,3.1-7,7v142c0,3.9,3.1,7,7,7h142c3.9,0,7-3.1,7-7V26c0-3.9-3.1-7-7-7H29.8z"/>
+		</g>
+	</g>
+</g>
+<rect x="23.5" y="55.7" class="st4" width="154.5" height="90.7"/>
+<text transform="matrix(1 0 0 1 54.366 126.6615)" class="st5 st6">Pr</text>
+</svg>

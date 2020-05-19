@@ -1,11 +1,172 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-</head>
-<body>
+<!doctype html>
+<html>
 
-   <h1>El meu Portfoli</h1>
-</body>
-</html>
+<head >
+    <meta charset="UTF-8">
+    <title> Jennifer Pereira. Animador/a i entorns 3D</title>
+    
+    
+    <!--CSS-->
+    <!--Normalize-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--Animations-->
+    <link rel="stylesheet" href="css/animations.css">
+    
+    <!--favicon-->
+    <link rel="icon" type="image/jpg" sizes="96x96" href="media/fotos/noun_gamepad_369817.png">
+    
+    <!--Full d'estil CSS Pàgina-->
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fons.css">
+    <link rel="stylesheet" href="subtitol_cat/subtitol.vtt">
+    <link rel="stylesheet" href="subtitol_esp/subtitol.vtt">
+    
+    
+
+    <!--GOOGLE FONTS-->
+    <link href="https://fonts.googleapis.com/css2?family=Gotu&display=swap" rel="stylesheet">
+
+
+    <!--VIEWPORT-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+</head>
+
+<body div class="bg-img" >
+    
+    <div id="container-a" >
+       <header>
+           
+           
+           <div class="container">
+               <h1> Jennifer Daiana Pereira</h1>
+           <h2 class="destacat1 floating">Animadora i entorns 3D</h2>
+               
+               </div>
+           
+       </header>
+        <!--MENÚ-->
+        <nav class= "container-flex">
+                
+                <button class="flex-2 boto" onclick="location.href='#feina'" type="button">Demo Reel</button>
+            
+               <button class="flex-2 boto" onclick="location.href='#qui'" type="button">Qui sóc </button>
+                
+                <button class="flex-2 boto" onclick="location.href='#hola'" type="button">Contacte</button>
+            
+        </nav>
+        <!--CABECERA-->
+        <section class= "container">
+            <div class="flex-1">
+                <h3 class= " destacat expandOpen"> Benvolguts al meu portfoli</h3>
+            </div>
+
+            
+            <!--WORKS-->
+            <section>
+                <div id="feina">
+                    <h2>Demo Reel</h2>
+                    <hr>
+                    <div class="box"> 
+                    <video width="100%"  controls width="100%">
+                    <source src="media/video/demoreelfin.mp4" type="video/mp4"/>
+                        <track label="Español" kind="subtitles" srclang="es" src="subtitol_esp/subtitol.vtt" default>
+            
+            <track label="Català" kind="subtitles" srclang="cat" src="subtitol_cat/subtitol.vtt" default>
+                        
+                        </video>
+                    </div>
+                    
+                    <div class="container-display">
+        <img class="mySlides" src="imgslider/imatgep1.jpeg" style="width:100%">
+        <img class="mySlides" src="imgslider/imatgep2.jpeg" style="width:100%">
+        <img class="mySlides" src="imgslider/imatgep3.jpeg" style="width:100%">
+
+        <button class="boton-slider fletxaDreta-slider" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="boton-slider fletxaEsquerra-slider" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+    <!--Script JS-->
+
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = x.length
+            }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
+
+    </script>
+                    
+
+                    <h2>Eines</h2>
+                    <hr>
+                    <div>
+                        <a><img class="icons-sm" src="media/fotos/icon-photo.svg" alt="icons" title="Adobe Photoshop"></a>
+                        
+                        <a><img class="icons-sm" src="media/fotos/icon-pr.svg" alt="icons"  title="Adobe Premiere"></a>
+                        <a><img class="icons-sm" src="media/fotos/icon-ai.svg" alt="icons"  title="Adobe Ilustrator"></a>
+                        <a><img class="icons-sm" src="media/fotos/icon-unity.svg" alt="icons" title="Unity"></a>
+                        <a><img class="icons-sm" src="media/fotos/icon-HTML.svg" alt="icons" title="HTML"></a>
+                        <a><img class="icons-sm" src="media/fotos/icon-CSS.svg" alt="icons"  title="CSS"></a>
+                    </div>
+                </div>
+                
+                 
+            </section>
+            
+            <!--ABOUT-->
+            <section>
+                <div id="qui">
+                    <h2>Qui sóc</h2>
+                    <hr><img class ="imagen tossing" src="media/fotos/perfill.PNG"/>
+                    <p>  El meu nom és Jennifer Daiana Pereira i sóc estudiant de grau superior d'animació 3D i entorns interactius al Campus Professional Teknós de la UVic. Com encara sóc estudiant, encara estic aprenent, però la meva iniciativa i les meves ganes em fan ser única, vaig començar a estudiar aquest CFGS perquè sempre m'ha agradat dissenyar tota mena de coses i al fer un batxillerat artístic em vaig adonar que l'art era la meva passió. </p>
+                    
+
+                </div>
+            </section>
+            <a href="media/cv/curriculumm2.pdf" target="_blank">Descarrega't el meu CV</a>
+            <!--CONTACT-->
+            <section>
+                <div id="hola">
+                    <h2 class= " destacat tossing">Hola!</h2><p> Si tens algun dubte sobre el meu currículum</p>
+                    <div>
+                        <p>Pots posar-te en contacte amb mi a:</p>
+                        <div class="insta">
+                <a href="https://www.instagram.com/d.e.a_d.a.m.a/" target="_blank"><img src="media/fotos/instagram.png" width="40px" height="40ox"></a>
+            </div>
+                        
+                        
+                        <p>jennipereira8@gmail.com<br />instagram: d.e.a_d.a.m.a</p>
+                    </div>
+                </div>
+
+            </section>
+        </section>
+    </div>
+    
+    
+    
+    <footer id="footer">
+        <div>jennipereira8@gmail.com </div>
+    </footer>
+    
+</body></html>
