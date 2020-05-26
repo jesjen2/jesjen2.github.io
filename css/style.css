@@ -1,7 +1,6 @@
 
 /*General*/
 
-
 body{
     font-family: 'Gotu', sans-serif;
     text-align: center;
@@ -30,17 +29,14 @@ background-size: cover;
 
 #container-a{
     width: 70%;
-    margin: 6px auto;
+    margin: auto;
     padding:24px;
     background-color: transparent;
 }
-@media (max-width: 600px) {
-  #container-a { 
-  }
-}
+
 @media (max-width: 580px) {
   #container-a {
-     width: 80%;
+     width: 95%;
   }
 }
 
@@ -187,7 +183,8 @@ p{
     justify-content: center;
     align-content: center;
     display: flex;
-    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 25px;
 }
 .imagen{
     align-items: center;
@@ -210,14 +207,22 @@ p{
         margin: auto;
         box-sizing: border-box;
         text-align: center;
+        border:5px solid green; 
     }
 
+
     .container-display {
+         justify-content: center;
+    align-content: center;
+    display: flex;
+    
+        justify-content: center;
         position: relative;
-        width: 98%;
+        width: 100%;
+        text-align: center;
         /*indicador*/
-        margin: 5px;
-        border: 1px dashed green;
+        margin: 0px;
+        border-radius: 25px;
 
     }
 
@@ -229,17 +234,25 @@ p{
     }
 
     .boton-slider {
-        width: 30px;
+        width: 50px;
         height: 50px;
-        background-color: indianred;
-        border-radius: 21px;
+        background-color: transparent;
+        border:3px solid white;
+        border-radius: 100%;
+        margin: 0 36px;
     }
-
+@media only screen and (max-width: 500px) {
+    .boton-slider {
+        margin: 0 10px;
+    }
+}
     .boton-slider:hover {
-        width: 30px;
-        height: 30px;
-        background-color: indianred;
-        border-radius: 21px;
+        width: 50px;
+        height: 50px;
+        background-color: transparent;
+        border:6px solid white;
+        border-radius: 100%;
+        font-size: 1.6em;
     }
 
     .fletxaDreta-slider {
