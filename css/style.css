@@ -105,18 +105,19 @@ p{
 .flex-1{
     flex:1;
     flex-basis: 580px;
-
     margin:6px;
     padding:12px;
 }
 .flex-2{
     flex:1;
-    flex-basis: 200px;
-    
+    flex-basis: 300px;
+    transform: scale(1);
+    transition-duration: .5s;
 }
 .flex-2:hover{
     transform: scale(1.04);
     border: 2px solid;
+
     
 }
 .boto{
@@ -147,7 +148,7 @@ p{
 .destacat1{
     text-shadow: 20px 20px 10px rgba(0,0,0,.5);
     font-weight: 300;
-    font-size: 2em;
+    font-size: 1.8em;
     color:white;
     padding: 12px;
     text-align: right;
@@ -185,6 +186,13 @@ p{
     display: flex;
     margin-bottom: 25px;
     border-radius: 25px;
+    justify-content: center;
+        position: relative;
+        width: 100%;
+        text-align: center;
+        /*indicador*/
+        margin: 0px;
+        border-radius: 25px;
 }
 .imagen{
     align-items: center;
@@ -213,8 +221,8 @@ p{
 
     .container-display {
          justify-content: center;
-    align-content: center;
-    display: flex;
+         align-content: center;
+         display: flex;
     
         justify-content: center;
         position: relative;
